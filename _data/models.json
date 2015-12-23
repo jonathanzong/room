@@ -1,0 +1,55 @@
+{
+  fall: {
+    id: "fall",
+    backgroundUrl: "/assets/images/room-1-background.png",
+    musicUrl: "/assets/sound/",
+    interactiveObjects: [{
+      imageUrl: "/assets/images/room-1-book.png",
+      hoverUrl: "/assets/images/room-1-book.gif",
+      absoluteHeight: 30,
+      absoluteTop: 50,
+      absoluteLeft: 0
+    }],
+    prev: "/",
+    next: "/winter"
+  },
+  winter: {
+    id: "winter",
+    backgroundUrl: "/assets/images/room-1-background.png",
+    musicUrl: "/assets/sound/",
+    interactiveObjects: [{
+      imageUrl: "/assets/images/room-1-book.png",
+      hoverUrl: "/assets/images/room-1-book.gif",
+      absoluteHeight: 30,
+      absoluteTop: 50,
+      absoluteLeft: 0
+    }],
+    prev: "/fall",
+    next: "/spring"
+  },
+  spring: {
+    backgroundUrl: "/assets/images/room-1-background.png",
+    musicUrl: "/assets/sound/",
+    interactiveObjects: [{
+      imageUrl: "/assets/images/room-1-book.png",
+      hoverUrl: "/assets/images/room-1-book.gif",
+      absoluteHeight: 30,
+      absoluteTop: 50,
+      absoluteLeft: 0
+    }],
+    prev: "/winter",
+    next: "/summer"
+  },
+  summer: {
+    backgroundUrl: "/assets/images/room-1-background.png",
+    musicUrl: "/assets/sound/",
+    interactiveObjects: [{
+      imageUrl: "/assets/images/room-1-book.png",
+      hoverUrl: "/assets/images/room-1-book.gif",
+      absoluteHeight: 30,
+      absoluteTop: 50,
+      absoluteLeft: 0
+    }],
+    prev: "/spring"
+  }
+}

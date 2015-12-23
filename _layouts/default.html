@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    <div id="smoothstate">
+      {{ content }}
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="{{ "/scripts/jquery.smoothState.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/scripts/main.js" | prepend: site.baseurl }}"></script>
+
+  </body>
+
+</html>
