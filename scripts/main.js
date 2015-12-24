@@ -32,7 +32,9 @@ $(document).ready(function() {
     $(".nav").width(($(window).width() - $(".scene").width()) / 2 - 50);
   };
   $(window).resize(sizeHandler);
-  $(document).on("load", ".scene .background", sizeHandler);
+  $(".scene .background").load(sizeHandler).each(function() {
+    if(this.complete) $(this).load();
+  });
 
   var idx = Math.floor(Math.random() * leftArrows.length);
   $(".nav-left > span").html(leftArrows[idx]);
@@ -60,7 +62,7 @@ $(document).ready(function() {
       render: function ($container) {
         // Add your CSS animation reversing class
         $container.addClass('is-exiting');
-
+        
         // Restart your animation
         smoothState.restartCSSAnimations();
       }
@@ -76,7 +78,6 @@ $(document).ready(function() {
 
       }
     }
-  };
-
-  var smoothState = $('#smoothstate').smoothState(options);
+  },
+  smoothState = $('#smoothstate').smoothState(options).data('smoothState');
 });
