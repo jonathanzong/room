@@ -5,7 +5,7 @@
 {% endif %}
 <div class="outer">
   <div class="inner">
-      <div id="smoothstate" class="scene animated fadeInUp">
+      <div id="smoothstate" class="scene animated fadeIn">
         <img class="background" src="{{include.model.backgroundUrl | prepend:site.baseurl}}">
         {% for interactive in include.model.interactiveObjects %}
         <img class="interactive" style="top:{{interactive.absoluteTop}}%;left:{{interactive.absoluteLeft}}%;height:{{interactive.absoluteHeight}}%;" src="{{interactive.imageUrl | prepend:site.baseurl}}" data-imageurl="{{interactive.imageUrl | prepend:site.baseurl}}" data-hoverurl="{{interactive.hoverUrl | prepend:site.baseurl}}">
