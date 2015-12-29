@@ -1,7 +1,7 @@
 {
   fall: {
     id: "fall",
-    backgroundUrl: "/assets/images/room-1-background.png",
+    backgroundUrl: "/assets/images/fall-background.png",
     musicUrl: "/assets/sound/",
     interactiveObjects: [{
       imageUrl: "/assets/images/room-1-book.png",

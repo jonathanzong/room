@@ -32,9 +32,7 @@ $(document).ready(function() {
     $(".nav").width(($(window).width() - $(".scene").width()) / 2 - 50);
   };
   $(window).resize(sizeHandler);
-  $(".scene .background").load(sizeHandler).each(function() {
-    if(this.complete) $(this).load();
-  });
+  $(".scene .background").imagesLoaded(sizeHandler);
 
   var idx = Math.floor(Math.random() * leftArrows.length);
   $(".nav-left > span").html(leftArrows[idx]);
