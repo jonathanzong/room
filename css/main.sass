@@ -47,7 +47,7 @@ h1.intro
   &.interactive
     height: 0
     opacity: 0
-    animation: book 0.3s ease-in forwards
+    animation: book 0.5s ease-in forwards
     animation-delay: 4s
       
 @keyframes book
@@ -97,12 +97,13 @@ h1.intro
 .nav
   position: fixed
   height: 100vh
+  max-height: 100vh
   top: 0
   padding: 10px
   min-width: 60px
   z-index: 2
   background-color: #333
-  opacity: 0
+  opacity: 0.05
   transition: opacity 0.2s
   span
     position: absolute
@@ -117,12 +118,14 @@ h1.intro
 .nav-left
   left: 0
   span
-    left: 33%
+    left: 50%
+    margin-left: -0.5em
 
 .nav-right
   right: 0
   span
-    right: 33%
+    right: 50%
+    margin-right: -0.5em
 
 /* SCENE
 

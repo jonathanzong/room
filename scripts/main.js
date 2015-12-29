@@ -29,7 +29,7 @@ var rightArrows = ["&#8594", "&#8605", "&#8608", "&#8611", "&#8614", "&#8618", "
 
 $(document).ready(function() {
   var sizeHandler = function() {
-    $(".nav").width(($(window).width() - $(".scene").width()) / 2 - 50);
+    $(".nav").width(($(window).width() - $(".scene").width()) / 2 - 20);
   };
   $(window).resize(sizeHandler);
   $(".scene .background").imagesLoaded(sizeHandler);
