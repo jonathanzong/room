@@ -17,12 +17,11 @@ html, body
 
 $anim-delay: 2
 
-h1
+h1.intro
   position: absolute
-  top: 57.5%
+  top: 60%
   height: 30%
-  left: 5%
-  z-index: 2
+  left: 3%
   font-family: 'Indie Flower', sans-serif
   // font-family: 'Raleway', sans-serif
   text-align: center
@@ -41,8 +40,25 @@ h1
       animation-delay: #{$anim-delay + 0.25}s
     &:nth-child(4)
       animation-delay: #{$anim-delay + 0.75}s
-    
 
+.intro
+  &.background
+    visibility: hidden
+  &.interactive
+    height: 0
+    opacity: 0
+    animation: book 0.3s ease-in forwards
+    animation-delay: 4s
+      
+@keyframes book
+  0%
+    transform: scale(0)
+    height: 0
+    opacity: 0
+  100%
+    transform: scale(1)
+    height: 30%
+    opacity: 1
 
 @keyframes raindrops
   0%
