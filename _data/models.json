@@ -15,20 +15,56 @@
   },
   winter: {
     id: "winter",
-    backgroundUrl: "/assets/images/room-1-background.png",
+    backgroundUrl: "/assets/images/winter/winter_wholeroom.png",
     musicUrl: "/assets/sound/",
     interactiveObjects: [{
-      imageUrl: "/assets/images/room-1-book.png",
-      hoverUrl: "/assets/images/room-1-book.gif",
-      absoluteHeight: 30,
-      absoluteTop: 50,
-      absoluteLeft: 0
+      imageUrl: "/assets/images/winter/bag_ball_card.png",
+      hoverUrl: "/assets/images/winter/bag_ball_card.gif",
+      absoluteHeight: 10,
+      absoluteTop: 13.5,
+      absoluteLeft: 26
+    }, {
+      imageUrl: "/assets/images/winter/box_helmet.png",
+      hoverUrl: "/assets/images/winter/box_helmet.gif",
+      absoluteHeight: 24.8,
+      absoluteTop: 47,
+      absoluteLeft: 28
+    }, {
+      imageUrl: "/assets/images/winter/coat.png",
+      hoverUrl: "/assets/images/winter/coat.gif",
+      absoluteHeight: 51.4,
+      absoluteTop: 40,
+      absoluteLeft: 72
+    }, {
+      imageUrl: "/assets/images/winter/cups_bottle.png",
+      hoverUrl: "/assets/images/winter/cups_bottle.gif",
+      absoluteHeight: 24.6,
+      absoluteTop: 74,
+      absoluteLeft: 44
+    }, {
+      imageUrl: "/assets/images/winter/laptop.png",
+      hoverUrl: "/assets/images/winter/laptop.gif",
+      absoluteHeight: 15.6,
+      absoluteTop: 35,
+      absoluteLeft: 60
+    }, {
+      imageUrl: "/assets/images/winter/poster.png",
+      hoverUrl: "/assets/images/winter/poster.gif",
+      absoluteHeight: 24.13,
+      absoluteTop: 15,
+      absoluteLeft: 78
+    }, {
+      imageUrl: "/assets/images/winter/trashcan.png",
+      hoverUrl: "/assets/images/winter/trashcan.gif",
+      absoluteHeight: 38.2,
+      absoluteTop: 61,
+      absoluteLeft: 87
     }],
     prev: "/fall",
     next: "/spring"
   },
   spring: {
-    backgroundUrl: "/assets/images/room-1-background.png",
+    backgroundUrl: "/assets/images/winter/winter_wholeroom color.png",
     musicUrl: "/assets/sound/",
     interactiveObjects: [{
       imageUrl: "/assets/images/room-1-book.png",
