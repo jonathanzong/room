@@ -143,14 +143,44 @@
     next: "/summer"
   },
   summer: {
-    backgroundUrl: "/assets/images/room1-background.png",
+    backgroundUrl: "/assets/images/summer/summer_wholeroom_color.png",
     musicUrl: "/assets/sound/",
     interactiveObjects: [{
-      imageUrl: "/assets/images/room1-book.png",
-      hoverUrl: "/assets/images/room1-book.gif",
-      absoluteHeight: 30,
-      absoluteTop: 50,
-      absoluteLeft: 0
+      imageUrl: "/assets/images/summer/boxflap.png",
+      hoverUrl: "/assets/images/summer/boxflap.gif",
+      absoluteHeight: 27.8,
+      absoluteTop: 60,
+      absoluteLeft: 47
+    }, {
+      imageUrl: "/assets/images/summer/boxspin.png",
+      hoverUrl: "/assets/images/summer/boxspin.gif",
+      absoluteHeight: 19.4,
+      absoluteTop: 53,
+      absoluteLeft: 28
+    }, {
+      imageUrl: "/assets/images/summer/boxtape.png",
+      hoverUrl: "/assets/images/summer/boxtape.gif",
+      absoluteHeight: 14.53,
+      absoluteTop: 86.3,
+      absoluteLeft: 26.5
+    }, {
+      imageUrl: "/assets/images/summer/pset.png",
+      hoverUrl: "/assets/images/summer/pset.gif",
+      absoluteHeight: 10.93,
+      absoluteTop: 38,
+      absoluteLeft: 46
+    }, {
+      imageUrl: "/assets/images/summer/tapepen.png",
+      hoverUrl: "/assets/images/summer/tapepen.gif",
+      absoluteHeight: 4.13,
+      absoluteTop: 18.6,
+      absoluteLeft: 26
+    }, {
+      imageUrl: "/assets/images/summer/trash.png",
+      hoverUrl: "/assets/images/summer/trash.gif",
+      absoluteHeight: 34.73,
+      absoluteTop: 65,
+      absoluteLeft: 86
     }],
     prev: "/spring"
   }
