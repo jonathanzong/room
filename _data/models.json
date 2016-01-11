@@ -1,14 +1,50 @@
 {
   fall: {
     id: "fall",
-    backgroundUrl: "/assets/images/fall-background.png",
+    backgroundUrl: "/assets/images/fall/room1-bg.png",
     musicUrl: "/assets/sound/",
     interactiveObjects: [{
-      imageUrl: "/assets/images/room-1-book.png",
-      hoverUrl: "/assets/images/room-1-book.gif",
-      absoluteHeight: 30,
-      absoluteTop: 50,
-      absoluteLeft: 0
+      imageUrl: "/assets/images/fall/room1-journal.png",
+      hoverUrl: "/assets/images/fall/room1-journal.gif",
+      absoluteHeight: 17.53,
+      absoluteTop: 60,
+      absoluteLeft: 4
+    }, {
+      imageUrl: "/assets/images/fall/room1-box.png",
+      hoverUrl: "/assets/images/fall/room1-box.gif",
+      absoluteHeight: 31.4,
+      absoluteTop: 66.6,
+      absoluteLeft: 52
+    }, {
+      imageUrl: "/assets/images/fall/room1-jersey.png",
+      hoverUrl: "/assets/images/fall/room1-jersey.gif",
+      absoluteHeight: 22.53,
+      absoluteTop: 42.5,
+      absoluteLeft: 72.5
+    }, {
+      imageUrl: "/assets/images/fall/room1-mushroom.png",
+      hoverUrl: "/assets/images/fall/room1-mushroom.png",
+      absoluteHeight: 5.93,
+      absoluteTop: 62,
+      absoluteLeft: 22.5
+    }, {
+      imageUrl: "/assets/images/fall/room1-phone.png",
+      hoverUrl: "/assets/images/fall/room1-phone.gif",
+      absoluteHeight: 14.13,
+      absoluteTop: 44,
+      absoluteLeft: 10
+    }, {
+      imageUrl: "/assets/images/fall/room1-poster.png",
+      hoverUrl: "/assets/images/fall/room1-poster.png",
+      absoluteHeight: 24,
+      absoluteTop: 15,
+      absoluteLeft: 78
+    }, {
+      imageUrl: "/assets/images/fall/room1-trashcan.png",
+      hoverUrl: "/assets/images/fall/room1-trashcan.gif",
+      absoluteHeight: 33,
+      absoluteTop: 66.8,
+      absoluteLeft: 80.5
     }],
     prev: "/",
     next: "/winter"
@@ -67,8 +103,8 @@
     backgroundUrl: "/assets/images/winter/winter_wholeroom color.png",
     musicUrl: "/assets/sound/",
     interactiveObjects: [{
-      imageUrl: "/assets/images/room-1-book.png",
-      hoverUrl: "/assets/images/room-1-book.gif",
+      imageUrl: "/assets/images/room1-book.png",
+      hoverUrl: "/assets/images/room1-book.gif",
       absoluteHeight: 30,
       absoluteTop: 50,
       absoluteLeft: 0
@@ -77,11 +113,11 @@
     next: "/summer"
   },
   summer: {
-    backgroundUrl: "/assets/images/room-1-background.png",
+    backgroundUrl: "/assets/images/room1-background.png",
     musicUrl: "/assets/sound/",
     interactiveObjects: [{
-      imageUrl: "/assets/images/room-1-book.png",
-      hoverUrl: "/assets/images/room-1-book.gif",
+      imageUrl: "/assets/images/room1-book.png",
+      hoverUrl: "/assets/images/room1-book.gif",
       absoluteHeight: 30,
       absoluteTop: 50,
       absoluteLeft: 0

@@ -2,16 +2,16 @@ module.exports = function(grunt) {
   // http://gruntjs.com/configuring-tasks#building-the-files-object-dynamically
   grunt.initConfig({
     imagemin: {
-      winter: {
+      all: {
         options: {
           optimizationLevel: 7
         },
         files: [
           {
             expand: true,
-            cwd: 'assets/images/winter',
+            cwd: 'assets/images/',
             src: ['**/*.{png,jpg,gif}'],
-            dest: 'assets/images/winter',
+            dest: 'assets/images/',
           }
         ]
       }
