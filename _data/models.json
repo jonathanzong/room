@@ -54,6 +54,12 @@
     backgroundUrl: "/assets/images/winter/winter_wholeroom.png",
     musicUrl: "/assets/sound/",
     interactiveObjects: [{
+      imageUrl: "/assets/images/fall/room1-journal.png",
+      hoverUrl: "/assets/images/fall/room1-journal.gif",
+      absoluteHeight: 17.53,
+      absoluteTop: 57,
+      absoluteLeft: 3
+    }, {
       imageUrl: "/assets/images/winter/bag_ball_card.png",
       hoverUrl: "/assets/images/winter/bag_ball_card.gif",
       absoluteHeight: 10,
@@ -181,6 +187,12 @@
       absoluteHeight: 34.73,
       absoluteTop: 65,
       absoluteLeft: 86
+    }, {
+      imageUrl: "/assets/images/spring/room3-journal.png",
+      hoverUrl: "/assets/images/spring/room3-journal.gif",
+      absoluteHeight: 19.2,
+      absoluteTop: 42.6,
+      absoluteLeft: 2
     }],
     prev: "/spring"
   }
