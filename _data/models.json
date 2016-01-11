@@ -100,14 +100,44 @@
     next: "/spring"
   },
   spring: {
-    backgroundUrl: "/assets/images/winter/winter_wholeroom color.png",
+    backgroundUrl: "/assets/images/spring/room3-bg.png",
     musicUrl: "/assets/sound/",
     interactiveObjects: [{
-      imageUrl: "/assets/images/room1-book.png",
-      hoverUrl: "/assets/images/room1-book.gif",
-      absoluteHeight: 30,
-      absoluteTop: 50,
-      absoluteLeft: 0
+      imageUrl: "/assets/images/spring/room3-avocado.png",
+      hoverUrl: "/assets/images/spring/room3-avocado.png",
+      absoluteHeight: 4.6,
+      absoluteTop: 18,
+      absoluteLeft: 24.8
+    }, {
+      imageUrl: "/assets/images/spring/room3-cucumber.png",
+      hoverUrl: "/assets/images/spring/room3-cucumber.png",
+      absoluteHeight: 2.93,
+      absoluteTop: 50.8,
+      absoluteLeft: 6
+    }, {
+      imageUrl: "/assets/images/spring/room3-bracelet.png",
+      hoverUrl: "/assets/images/spring/room3-bracelet.gif",
+      absoluteHeight: 11.86,
+      absoluteTop: 66.3,
+      absoluteLeft: 8
+    }, {
+      imageUrl: "/assets/images/spring/room3-journal.png",
+      hoverUrl: "/assets/images/spring/room3-journal.gif",
+      absoluteHeight: 19.2,
+      absoluteTop: 78.6,
+      absoluteLeft: 34
+    }, {
+      imageUrl: "/assets/images/spring/room3-phone.png",
+      hoverUrl: "/assets/images/spring/room3-phone.gif",
+      absoluteHeight: 14.2,
+      absoluteTop: 61,
+      absoluteLeft: 12
+    }, {
+      imageUrl: "/assets/images/spring/room3-trashcan.png",
+      hoverUrl: "/assets/images/spring/room3-trashcan.gif",
+      absoluteHeight: 37.6,
+      absoluteTop: 60,
+      absoluteLeft: 84
     }],
     prev: "/winter",
     next: "/summer"
