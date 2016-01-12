@@ -38,6 +38,15 @@ $(document).ready(function() {
   $(".nav-left > span").html(leftArrows[idx]);
   $(".nav-right > span").html(rightArrows[idx]);
 
+  $(window).delegate("audio", "play", function() {
+    $("audio").not(this).each(function(index, audio) {
+        audio.pause();
+        $(this).remove();
+    });
+  });
+
+  $("audio")[0].play();
+
   $(document).on({
       mouseenter: function () {
         $(this).attr("src", $(this).data("hoverurl"));
@@ -70,7 +79,6 @@ $(document).ready(function() {
       render: function ($container, $newContent) {
         // Remove your CSS animation reversing class
         $container.removeClass('is-exiting');
-
         // Inject the new content
         $container.html($newContent);
 
