@@ -38,7 +38,7 @@ $(document).ready(function() {
   $(".nav-left > span").html(leftArrows[idx]);
   $(".nav-right > span").html(rightArrows[idx]);
 
-  $(window).delegate("audio", "play", function() {
+  $(window).on("audio", "play", function() {
     $("audio").not(this).each(function(index, audio) {
         audio.pause();
         $(this).remove();
